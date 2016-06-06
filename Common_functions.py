@@ -19,7 +19,7 @@ def connect():
         
     """
     try: 
-        db = MySQLdb.connect(user="username", passwd="password", host='172.31.44.86')
+        db = MySQLdb.connect(user="username", passwd="password", host='host_ip_address')
         print "MySQL is connected"
         return (db)
     except MySQLdb.Error, e:
